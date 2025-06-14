@@ -91,10 +91,15 @@ This application manages patient records and clinical notes for a medical clinic
 
 ### Command-Line Interface
 
+Get into the clinic folder
+```bash
+cd clinic
+```
+
 Run the CLI prototype:
 
 ```bash
-python3 -m clinic.cli
+python3 -m clinic cli
 ```
 
 Follow prompts to log in, manage patients, and edit notes.
@@ -104,7 +109,7 @@ Follow prompts to log in, manage patients, and edit notes.
 Launch the PyQt6 GUI:
 
 ```bash
-python3 -m clinic.gui
+python3 -m clinic gui
 ```
 
 Use menus and forms to:
