@@ -1,0 +1,151 @@
+/* General Window and Widget Styling */
+QWidget {
+    background-color: #FFFFFF; 
+    color: #333333; 
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+
+/* Header and Title Styling */
+QLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+QLabel#title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000; 
+    text-align: center;
+}
+
+/* Buttons Styling */
+QPushButton {
+    background-color: #2196F3; 
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; 
+}
+
+QPushButton:pressed {
+    background-color: #82B1FF;
+}
+
+QPushButton.success {
+    background-color: #4CAF50; 
+    color: #FFFFFF;
+}
+
+QPushButton.warning {
+    background-color: #FF5252;
+    color: #FFFFFF;
+}
+
+/* Text Input Fields */
+QLineEdit {
+    background-color: #F8F9FA; 
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #82B1FF;
+    background-color: #F1F8FF;
+}
+
+/* QPlainTextEdit and QTextEdit Styling */
+QPlainTextEdit, QTextEdit {
+    background-color: #F8F9FA; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    color: #333333;
+}
+
+QPlainTextEdit:focus, QTextEdit:focus {
+    border: 1px solid #82B1FF;
+    background-color: #F1F8FF; 
+}
+
+/* Message Box Styling */
+QMessageBox {
+    background-color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* Dialogs */
+QInputDialog {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #F8F9FA;
+    border: none;
+    width: 12px;
+}
+
+QScrollBar::handle {
+    background: #CCCCCC;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:hover {
+    background: #82B1FF;
+}
+
+QScrollBar::handle:pressed {
+    background: #2196F3; 
+}
+
+/* Table and List Views */
+QTableView, QListView {
+    background-color: #FFFFFF;
+    alternate-background-color: #F8F9FA;
+    border: 1px solid #CCCCCC;
+}
+
+QTableView::item:hover, QListView::item:hover {
+    background-color: #BBDEFB; 
+}
+
+QTableView::item:selected, QListView::item:selected {
+    background-color: #82B1FF; 
+    color: #FFFFFF; 
+}
+
+/* Status and Notification Colors */
+.status-success {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.status-warning {
+    color: #FF5252;
+    font-weight: bold;
+}
+
+.status-info {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+/* Spacing and Margins */
+QVBoxLayout, QHBoxLayout {
+    margin: 12px;
+    spacing: 8px;
+}
