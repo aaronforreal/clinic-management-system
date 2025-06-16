@@ -18,7 +18,6 @@ This project implements a medical clinic system in Python using a Model-View-Con
 7. [Testing](#testing)
 8. [Development & Version Control](#development--version-control)
 9. [Contributing](#contributing)
-10. [Authors](#authors)
 
 ---
 
